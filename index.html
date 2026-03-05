@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div id="navbar">
+                <div id="navbar-logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div id="menu-bar">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </div>
+                <div id="navbar-links">
+                    <ul>
+                        <li>
+                            <a href="#home">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#product">
+                                Products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about us">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="collection-tools" id="navbar-tools">
+                        <a class="cart-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                            </svg>
+                            <span>0</span>
+                        </a>
+                        <a class="wishlist-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                            </svg>
+                            <span>0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- MENU BAR PAGE -->
+        <div id="menu-page">
+            <div id="menu-page-wrapper">
+                <ul>
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#product">
+                            Products
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about us">
+                            About
+                        </a>
+                    </li>
+                    <li class="collection-tools" id="menu-tools">
+                        <a class="cart-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                            </svg>
+                            <span>0</span>
+                        </a>
+                        <a class="wishlist-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                            </svg>
+                            <span>0</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <button class="blue-button">
+                    Shop Now
+                </button>
+            </div>
+        </div>  
+        <!-- END OF MENU PAGE --> 
+
+        <!-- MAIN BODY -->
+        <div id="product-page-body">
+            
+            <!-- TOP SECTION -->
+
+            <section class="home" id="home">
+                <div id="product-top-container">
+                    <div id="product-top-wrapper">
+                        <div id="product-top-text-section">
+                            <h1>Chocolate & Fruity Leche Flan</h1>
+                            <h2> Dolce Mejor</h2>
+                            <p>
+                                Experience pure bliss in every bite of our
+                                Chocolate & Fruity Leche Flan, where creamy richness blends with vibrant fruit and decadent chocolate.
+                            </p>
+                            <button class="btn">
+                                Shop Now
+                            </button>
+                        </div>
+                        <div id="product-top-image-section">
+                            <img src="images/lecheflan5.webp" alt="Large Light Beige Headphones">
+                        </div>
+                    </div>
+                </div> 
+            </section>
+           
+
+            
+                <div id="product-category-container">
+                    <div id="product-category-text">
+                        <span class="blue-line"></span>
+                        <span class="section-category-text">Categories</span>
+                    </div>
+                    <div id="product-category-wrapper">
+                        <a href="#product-section-lecheflan" class="product-category">
+                            <div class="product-category-image-section">
+                                <img src="images/lecheflan3.png" alt="leche flan">
+                            </div>
+                            <div class="product-category-desc-section">
+                                <span class="product-category-type">Leche Flan</span>
+                                <span class="product-category-number">8 items</span>
+                            </div>
+                        </a>
+                        
+                        <a href="#product-section-fries" class="product-category">
+                            <div class="product-category-image-section">
+                                <img src="images/fries.png" alt="fries">
+                            </div>
+                            <div class="product-category-desc-section">
+                                <span class="product-category-type">Fries</span>
+                                <span class="product-category-number">7 items</span>
+                            </div>
+                        </a>
+                        
+                        <a href="#product-section-fries" class="product-category">
+                            <div class="product-category-image-section">
+                                <img src="images/milktea.png" alt="milktea">
+                            </div>
+                            <div class="product-category-desc-section">
+                                <span class="product-category-type">Milktea</span>
+                                <span class="product-category-number">6 items</span>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                </div> 
+        
+           
+
+           
+            <div class="product-section" id="product-section-all">
+                <div class="product-section-top-container">
+                    <div class="section-category-container">
+                        <div class="section-category-type">
+                            <span class="blue-line"></span>
+                            <span class="section-category-text">Best Selling</span>
+                        </div>
+                        <h1>Explore Best Sellers</h1>
+                    </div>
+
+                    <div class="slideshow-buttons-container top" data-slideshow="all">
+                        <button class="slideshow-button prev-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                        <button class="slideshow-button next-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="product-cards-container">
+                    <ul>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan6.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Leche Flan with Cherry</h1>
+                                <p>₱ 35.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan4.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Chocolate Leche Flan</h1>
+                                <p>₱ 50.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries2.webp" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Cheese & Bacon Fries</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/caramel.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Caramel Macchiato</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea.webp" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Cookies & Cream</h1>
+                                <p>₱ 39.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea3.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Chocolate Milktea</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan1.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Classic Leche Flan</h1>
+                                <p>₱ 50.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries6.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Sour & Cream</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries8.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Barbeque Fries</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries4.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Classic Fries</h1>
+                                <p>₱ 35.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries5.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Cheese Fries</h1>
+                                <p>₱ 45.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan8.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Puto Flan</h1>
+                                <p>₱ 65.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+  
+                </div>
+                
+                <div class="slideshow-buttons-container bottom" data-slideshow="all">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div>
+
+            <!-- NEW PRODUCT SECTION -->
+            <div class="product-section" id="product-section-new">
+                <div class="product-section-top-container">
+                    <div class="section-category-container">
+                        <div class="section-category-type">
+                            <span class="blue-line"></span>
+                            <span class="section-category-text">New Flavor Unleashed</span>
+                        </div>
+                        <h1>Explore The New Taste</h1>
+                    </div>
+                    <div class="slideshow-buttons-container top" data-slideshow="new">
+                        <button class="slideshow-button prev-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                        <button class="slideshow-button next-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="product-cards-container">
+                    <ul>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan11.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Ube Leche Flan</h1>
+                                <p>₱ 50.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea5.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Taro Milktea</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries7.webp" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Chili Cheese Fries</h1>
+                                <p>₱ 45.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/yum.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Leche Flan Strawberry</h1>
+                                <p>₱ 60.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea6.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Mango Cheesecake</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea8.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Oreo Cheesecake</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries9.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Nacho Cheese</h1>
+                                <p>₱ 55.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan12.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Leche Flan with Mango</h1>
+                                <p>₱ 45.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="slideshow-buttons-container bottom" data-slideshow="new">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div>
+            </div> <!-- END OF NEW PRODUCT COLLECTION -->
+
+       
+             <div id="product" class="promotion-section">
+                <div class="promo-image-container">
+                    <img src="images/lecheflan10.png" alt="">
+                </div>
+                <div class="promo-text-container">
+                    <div class="promo-heading">
+                        <span class="blue-line"></span>
+                        <h1>All Products</h1>
+                    </div>
+                    <h2>Explore Our Leche Flan Delights</h2>
+                    <p> 
+                        Discover the rich, creamy goodness of our handcrafted leche flan
+                         — made with the finest ingredients and traditional recipes passed down through generations.
+                          Perfect for any occasion, or just because you deserve a treat!
+                    </p>
+                    <button class="btn">
+                        Shop Now
+                    </button>
+                </div>
+             </div>
+           
+
+            <!-- LECHE FLAN SECTION -->
+            <div class="product-section" id="product-section-lecheflan">
+                <div class="product-section-top-container">
+                    <div class="section-category-container">
+                        <div class="section-category-type">
+                            <span class="blue-line"></span>
+                            <span class="section-category-text">Leche Flan</span>
+                        </div>
+                        <h1>Indulge in Our Latest Leche Flan Delights</h1>
+                    </div>
+                    <div class="slideshow-buttons-container top" data-slideshow="lecheflan">
+                        <button class="slideshow-button prev-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                        <button class="slideshow-button next-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-cards-container">
+                    <ul>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan6.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Leche Flan with Cherry</h1>
+                                <p>₱ 35.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan4.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Chocolate Leche Flan</h1>
+                                <p>₱ 50.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan1.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Classic Leche Flan</h1>
+                                <p>₱ 50.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan12.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Leche Flan with Mango</h1>
+                                <p>₱ 45.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan11.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Ube Leche Flan</h1>
+                                <p>₱ 50.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/yum.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Leche Flan Strawberry</h1>
+                                <p>₱ 60.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan8.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Puto Flan</h1>
+                                <p>₱ 65.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/lecheflan13.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Choco Flan Strawberry</h1>
+                                <p>₱ 90.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="slideshow-buttons-container bottom" data-slideshow="lecheflan">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div>
+            </div> <!-- END OF LECHE FLAN  -->
+
+            <!-- FRIES SECTION -->
+            <div class="product-section" id="product-section-fries">
+                <div class="product-section-top-container">
+                    <div class="section-category-container">
+                        <div class="section-category-type">
+                            <span class="blue-line"></span>
+                            <span class="section-category-text">Fries</span>
+                        </div>
+                        <h1>Perfectly Fries for Every Bite</h1>
+                    </div>
+                    <div class="slideshow-buttons-container top" data-slideshow="fries">
+                        <button class="slideshow-button prev-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                        <button class="slideshow-button next-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-cards-container">
+                    <ul>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries9.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Nacho Cheese</h1>
+                                <p>₱ 55.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries8.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Barbeque Fries</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries7.webp" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Chili Cheese Fries</h1>
+                                <p>₱ 45.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries2.webp" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Cheese & Bacon Fries</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        
+                        
+                       
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries4.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Classic Fries</h1>
+                                <p>₱ 35.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries5.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Cheese Fries</h1>
+                                <p>₱ 45.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/fries6.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Sour & Cream</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div> 
+                
+                <div class="slideshow-buttons-container bottom" data-slideshow="fries">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="#414141" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div>
+
+                <!-- END OF FRIES COLLECTION -->
+
+        
+
+            <!-- MILKTEA SECTION -->
+            <div class="product-section" id="product-section-milktea">
+                <div class="product-section-top-container">
+                    <div class="section-category-container">
+                        <div class="section-category-type">
+                            <span class="blue-line"></span>
+                            <span class="section-category-text">Milktea</span>
+                        </div>
+                        <h1>Explore Our Milktea</h1>
+                    </div>
+
+                    <div class="slideshow-buttons-container top" data-slideshow="milktea">
+                        <button class="slideshow-button prev-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                        <button class="slideshow-button next-button">
+                            <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="product-cards-container">
+                    <ul>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea8.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Oreo Cheesecake</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea6.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Mango Cheesecake</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea5.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Taro Milktea</h1>
+                                <p>₱ 40.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/caramel.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Caramel Macchiato</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea.webp" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Cookies & Cream</h1>
+                                <p>₱ 39.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <div class="product-image-container">
+                                <img src="images/milktea3.png" alt="">
+                                <button class="heart-button">
+                                    <svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                            <div class="product-text-container">
+                                <h1>Chocolate Milktea</h1>
+                                <p>₱ 49.00</p>
+                                <button class="btn">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+  
+                </div>
+                
+                <div class="slideshow-buttons-container bottom" data-slideshow="milktea">
+                    <button class="slideshow-button prev-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 6L9 12L15 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                    <button class="slideshow-button next-button">
+                        <svg viewBox="0 0 24 24" fill="none" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 6L15 12L9 18" stroke="rgb(64, 64, 64)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div> <!-- END OF MILKTEA COLLECTION -->
+
+
+            <div class="promotion-section" id="about us">
+                <div class="promo-image-container">
+                    <img src="images/lecheflan9.png" alt="About Us">
+                </div>
+                <div class="promo-text-container">
+                    <div class="promo-heading">
+                        <span class="blue-line"></span>
+                        <h1>About Us</h1>
+                    </div>
+                    <h2></h2>
+                    <p> 
+                        Discover the smooth, silky custard, dark chocolate, and amazing fruit flavors that deliciously merge in every spoonful of our which rich, creamy Leche Flan, which will make your taste buds want for more.
+
+                        We top our delectable leche flan with a lively mixture of in-season fruits, giving each bite a rush of flavor and a hint of sweetness.
+                        
+                        We would also like to inform you regarding this website: This is for educational purposes only; credit goes to the rightful owner of every picture we used. Thank you
+                    </p>
+                    <button class="btn">
+                        Contact Us
+                    </button>
+                </div>
+             </div>
+        
+            <!-- END OF PRODUCT SECTIONS -->
+
+        </div> <!-- END OF MAIN BODY -->
+    </body>
+
+        <footer>
+            <div class="footer-top">
+                <div class="footer-box">
+                    <a href="#" class="logo">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-box">
+                    <h3>Support</h3>
+                    <a href="#">Products</a>
+                    <a href="#about">Help</a>
+                    <a href="#shop">Return Policy</a>
+                    <a href="#new">Terms of Use</a>
+                </div>
+        
+                <div class="footer-box">
+                    <h3>Branches</h3>
+                    <a href="#">Daet</a>
+                    <a href="#">Vinzons</a>
+                    <a href="#">Labo</a>
+                    <a href="#">Basud</a>
+                </div>
+        
+                <div class="footer-box contact">
+                    <h3>Contact</h3>
+                    <span><i class='bx bxs-map'></i>Daet, Camarines Norte</span>
+                    <span><i class='bx bx-phone'></i>+6391234567890</span>
+                    <span><i class='bx bxs-envelope'></i>dolcemejorshop@gmail.com</span>
+                </div>
+            </div>
+        
+            <div id="footer-bottom">
+                <div class="footer-bottom-container">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#product">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#about us">About</a></li>
+                    </ul>
+                    <p>Copyright © 2025 Dolce Mejor. All rights reserved.</p>
+                </div>
+            </div>
+            
+        </footer>
+    
+</html>
